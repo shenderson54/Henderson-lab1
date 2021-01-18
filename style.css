@@ -1,0 +1,46 @@
+html {
+    font-family: "open sans";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1.5px 0px 5px 3px;
+}
+
+body {
+    background-color:  #f9fafc;
+}
+/* Remember to ask about test 8 as it looks wrong*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+    padding-left: .5em;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between ;
+    color: #69696a;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px; 
+    width: 100%;
+    height: 35px;
+} 
+a:hover {
+    color: #000;
+}
+
+.button2 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+
+}
