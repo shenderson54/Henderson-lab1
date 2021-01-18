@@ -1,0 +1,62 @@
+/* Looks damn good @ 500x802...just saying*/
+html {
+    font-family: "open sans";
+}
+
+* {
+    box-sizing: border-box;
+    padding: 1.5px 0px 5px 3px;
+}
+
+body {
+    background-color:  #f9fafc;
+}
+/* Remember to ask about test 8 as it looks wrong*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5px 10px 5px 3px;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between ;
+    color: #69696a;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px; 
+    width: 100%;
+    height: 35px;
+} 
+a:hover {
+    color: #000;
+}
+
+.button2 {    background-color: #000;
+    color: #fff;
+    border-radius: 20px; 
+    width: 100%;
+    height: 35px;
+} 
+}
+/* Wondering if I should make 2 sections??*/
+section {
+    display: inline-block;
+    padding-right: 5em;
+    padding-left: 1.5em;
+}
+header {
+    font-size: 25px;
+    font-weight:bold;
+    color: #000;
+    
+}
+p {
+    border-left:3px solid #69696a;
+    color: #69696a;
+}
