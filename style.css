@@ -1,10 +1,10 @@
+/* Looks damn good @ 500x802...just saying*/
 html {
     font-family: "open sans";
 }
 
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 1.5px 0px 5px 3px;
 }
 
@@ -17,8 +17,7 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    padding-right: 2em;
-    padding-left: .5em;
+    padding: 1.0px 10px 5px 3px;
 }
 a {
     text-decoration: none;
@@ -38,9 +37,25 @@ a:hover {
     color: #000;
 }
 
-.button2 {
-    background-color: #000;
+.button2 {    background-color: #000;
     color: #fff;
-    border-radius: 10px;
-
+    border-radius: 20px; 
+    width: 100%;
+    height: 35px;
+} 
+/* Wondering if I should make 2 sections??*/
+section {
+    display: inline-block;
+    padding-right: 5em;
+    padding-left: 1.5em;
+}
+header {
+    font-size: 25px;
+    font-weight:bold;
+    color: #000;
+    
+}
+p {
+    border-left:3px solid #69696a;
+    color: #69696a;
 }
