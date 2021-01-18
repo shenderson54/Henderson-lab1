@@ -17,7 +17,7 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    padding: 1.5px 10px 5px 3px;
+    padding: 1.0px 10px 5px 3px;
 }
 a {
     text-decoration: none;
@@ -43,7 +43,6 @@ a:hover {
     width: 100%;
     height: 35px;
 } 
-}
 /* Wondering if I should make 2 sections??*/
 section {
     display: inline-block;
